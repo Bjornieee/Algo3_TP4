@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Algo3_TP4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/haissam/depot-git/Algo3_TP4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Algo3_TP4">
+				<Option output="/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Algo3_TP4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/haissam/depot-git/Algo3_TP4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/haissam/depot-git/Algo3_TP4/Code"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algo3_TP4"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Algo3_TP4/fast">
+				<Option output="/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Algo3_TP4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/haissam/depot-git/Algo3_TP4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/haissam/depot-git/Algo3_TP4/Code"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../include/c++/13.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algo3_TP4/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/haissam/depot-git/Algo3_TP4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/haissam/depot-git/Algo3_TP4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/haissam/depot-git/Algo3_TP4/Code/Makefile">
+			<Option target="Algo3_TP4"/>
+		</Unit>
+		<Unit filename="/home/haissam/depot-git/Algo3_TP4/Code/rng.c">
+			<Option target="Algo3_TP4"/>
+		</Unit>
+		<Unit filename="/home/haissam/depot-git/Algo3_TP4/Code/rng.h">
+			<Option target="Algo3_TP4"/>
+		</Unit>
+		<Unit filename="/home/haissam/depot-git/Algo3_TP4/Code/skiplist.c">
+			<Option target="Algo3_TP4"/>
+		</Unit>
+		<Unit filename="/home/haissam/depot-git/Algo3_TP4/Code/skiplist.h">
+			<Option target="Algo3_TP4"/>
+		</Unit>
+		<Unit filename="/home/haissam/depot-git/Algo3_TP4/Code/skiplisttest.c">
+			<Option target="Algo3_TP4"/>
+		</Unit>
+		<Unit filename="/home/haissam/depot-git/Algo3_TP4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

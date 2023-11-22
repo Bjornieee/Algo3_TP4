@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Algo3_TP4.dir/Code/rng.c.o CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o -o Algo3_TP4 

@@ -204,6 +204,8 @@ SkipListIterator skiplist_iterator_next(SkipListIterator it);
  */
 int skiplist_iterator_value(SkipListIterator it);
 
+int skiplist_at(SkipList d, unsigned int i);
+
 
 /** @} */
 

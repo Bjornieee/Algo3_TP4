@@ -58,25 +58,25 @@ char *gettestfilename(const char *action, int numtest) {
 /** Build a list corresponding to the fiven file number.
  */
 SkipList buildlist(int num) {
-	SkipList d;
+    SkipList d;
 	FILE *input;
 	unsigned int level;
 	unsigned int nb_values;
 	int value;
-	
+
 	char *constructfromfile = gettestfilename("construct", num);
 	input = fopen(constructfromfile, "r");
 	if (input!=NULL) {
-		
-		fscanf(input, "%u", &level);
+        fscanf(input, "%u", &level);
 		d = skiplist_create(level);
-		
-		fscanf(input, "%u", &nb_values);
-		for (unsigned int i=0;i< nb_values; ++i) {
+
+        fscanf(input, "%u", &nb_values);
+
+        for (unsigned int i=0;i< nb_values; ++i) {
 			fscanf(input, "%d", &value);
 			d = skiplist_insert(d, value);
-		}
-	} else {
+        }
+    } else {
 		printf("Unable to open file %s\n", constructfromfile);
 		free(constructfromfile);
 		exit (1);
@@ -91,8 +91,17 @@ SkipList buildlist(int num) {
 /** Exercice 1.
  	Programming and test of skiplist construction.
  */
+
+void skiplist_print(int value, void* e){
+    printf("%d ",value);
+}
+
 void test_construction(int num){
-	(void) num;
+    SkipList d = buildlist(num);
+    printf("Skiplist (%d)\n", skiplist_size(d));
+    void *e = NULL;
+    skiplist_map(d,skiplist_print,e);
+
 }
 
 /** Exercice 2.
