@@ -1,5 +1,5 @@
 CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o: \
- /home/haissam/depot-git/Algo3_TP4/Code/skiplist.c \
+ /home/haissam/depot_git/Algo3_TP4/Code/skiplist.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -32,6 +32,6 @@ CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h \
- /home/haissam/depot-git/Algo3_TP4/Code/skiplist.h \
+ /home/haissam/depot_git/Algo3_TP4/Code/skiplist.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h \
- /home/haissam/depot-git/Algo3_TP4/Code/rng.h
+ /home/haissam/depot_git/Algo3_TP4/Code/rng.h

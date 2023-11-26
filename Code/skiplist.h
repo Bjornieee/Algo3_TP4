@@ -125,7 +125,7 @@ SkipList skiplist_remove(SkipList d, int value);
  *  @return true if the value was found, false otherwise.
  *
  */
-bool skiplist_search(SkipList d, int value, unsigned int *nb_operations);
+bool skiplist_search(SkipList d, int value, __attribute__((unused)) unsigned int *nb_operations);
 
 /**
  *  @brief Apply an operator on each member of the SkipList, from the begining to the end.

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/haissam/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /home/haissam/JetBrainsApp/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /home/haissam/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /home/haissam/JetBrainsApp/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/haissam/depot-git/Algo3_TP4
+CMAKE_SOURCE_DIR = /home/haissam/depot_git/Algo3_TP4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/haissam/depot-git/Algo3_TP4/cmake-build-debug
+CMAKE_BINARY_DIR = /home/haissam/depot_git/Algo3_TP4/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Algo3_TP4.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/Algo3_TP4.dir/progress.make
 include CMakeFiles/Algo3_TP4.dir/flags.make
 
 CMakeFiles/Algo3_TP4.dir/Code/rng.c.o: CMakeFiles/Algo3_TP4.dir/flags.make
-CMakeFiles/Algo3_TP4.dir/Code/rng.c.o: /home/haissam/depot-git/Algo3_TP4/Code/rng.c
+CMakeFiles/Algo3_TP4.dir/Code/rng.c.o: /home/haissam/depot_git/Algo3_TP4/Code/rng.c
 CMakeFiles/Algo3_TP4.dir/Code/rng.c.o: CMakeFiles/Algo3_TP4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Algo3_TP4.dir/Code/rng.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algo3_TP4.dir/Code/rng.c.o -MF CMakeFiles/Algo3_TP4.dir/Code/rng.c.o.d -o CMakeFiles/Algo3_TP4.dir/Code/rng.c.o -c /home/haissam/depot-git/Algo3_TP4/Code/rng.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haissam/depot_git/Algo3_TP4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Algo3_TP4.dir/Code/rng.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algo3_TP4.dir/Code/rng.c.o -MF CMakeFiles/Algo3_TP4.dir/Code/rng.c.o.d -o CMakeFiles/Algo3_TP4.dir/Code/rng.c.o -c /home/haissam/depot_git/Algo3_TP4/Code/rng.c
 
 CMakeFiles/Algo3_TP4.dir/Code/rng.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algo3_TP4.dir/Code/rng.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/haissam/depot-git/Algo3_TP4/Code/rng.c > CMakeFiles/Algo3_TP4.dir/Code/rng.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/haissam/depot_git/Algo3_TP4/Code/rng.c > CMakeFiles/Algo3_TP4.dir/Code/rng.c.i
 
 CMakeFiles/Algo3_TP4.dir/Code/rng.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algo3_TP4.dir/Code/rng.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/haissam/depot-git/Algo3_TP4/Code/rng.c -o CMakeFiles/Algo3_TP4.dir/Code/rng.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/haissam/depot_git/Algo3_TP4/Code/rng.c -o CMakeFiles/Algo3_TP4.dir/Code/rng.c.s
 
 CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o: CMakeFiles/Algo3_TP4.dir/flags.make
-CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o: /home/haissam/depot-git/Algo3_TP4/Code/skiplist.c
+CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o: /home/haissam/depot_git/Algo3_TP4/Code/skiplist.c
 CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o: CMakeFiles/Algo3_TP4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o -MF CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o.d -o CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o -c /home/haissam/depot-git/Algo3_TP4/Code/skiplist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haissam/depot_git/Algo3_TP4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o -MF CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o.d -o CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o -c /home/haissam/depot_git/Algo3_TP4/Code/skiplist.c
 
 CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/haissam/depot-git/Algo3_TP4/Code/skiplist.c > CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/haissam/depot_git/Algo3_TP4/Code/skiplist.c > CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.i
 
 CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/haissam/depot-git/Algo3_TP4/Code/skiplist.c -o CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/haissam/depot_git/Algo3_TP4/Code/skiplist.c -o CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.s
 
 CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o: CMakeFiles/Algo3_TP4.dir/flags.make
-CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o: /home/haissam/depot-git/Algo3_TP4/Code/skiplisttest.c
+CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o: /home/haissam/depot_git/Algo3_TP4/Code/skiplisttest.c
 CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o: CMakeFiles/Algo3_TP4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o -MF CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o.d -o CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o -c /home/haissam/depot-git/Algo3_TP4/Code/skiplisttest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haissam/depot_git/Algo3_TP4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o -MF CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o.d -o CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o -c /home/haissam/depot_git/Algo3_TP4/Code/skiplisttest.c
 
 CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/haissam/depot-git/Algo3_TP4/Code/skiplisttest.c > CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/haissam/depot_git/Algo3_TP4/Code/skiplisttest.c > CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.i
 
 CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/haissam/depot-git/Algo3_TP4/Code/skiplisttest.c -o CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/haissam/depot_git/Algo3_TP4/Code/skiplisttest.c -o CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.s
 
 # Object files for target Algo3_TP4
 Algo3_TP4_OBJECTS = \
@@ -125,7 +125,7 @@ Algo3_TP4: CMakeFiles/Algo3_TP4.dir/Code/skiplist.c.o
 Algo3_TP4: CMakeFiles/Algo3_TP4.dir/Code/skiplisttest.c.o
 Algo3_TP4: CMakeFiles/Algo3_TP4.dir/build.make
 Algo3_TP4: CMakeFiles/Algo3_TP4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Algo3_TP4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haissam/depot_git/Algo3_TP4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Algo3_TP4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algo3_TP4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/Algo3_TP4.dir/clean:
 .PHONY : CMakeFiles/Algo3_TP4.dir/clean
 
 CMakeFiles/Algo3_TP4.dir/depend:
-	cd /home/haissam/depot-git/Algo3_TP4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/haissam/depot-git/Algo3_TP4 /home/haissam/depot-git/Algo3_TP4 /home/haissam/depot-git/Algo3_TP4/cmake-build-debug /home/haissam/depot-git/Algo3_TP4/cmake-build-debug /home/haissam/depot-git/Algo3_TP4/cmake-build-debug/CMakeFiles/Algo3_TP4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/haissam/depot_git/Algo3_TP4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/haissam/depot_git/Algo3_TP4 /home/haissam/depot_git/Algo3_TP4 /home/haissam/depot_git/Algo3_TP4/cmake-build-debug /home/haissam/depot_git/Algo3_TP4/cmake-build-debug /home/haissam/depot_git/Algo3_TP4/cmake-build-debug/CMakeFiles/Algo3_TP4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Algo3_TP4.dir/depend
 

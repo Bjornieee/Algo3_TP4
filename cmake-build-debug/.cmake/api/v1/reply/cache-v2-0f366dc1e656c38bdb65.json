@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/haissam/depot-git/Algo3_TP4/cmake-build-debug"
+			"value" : "/home/haissam/depot_git/Algo3_TP4/cmake-build-debug"
 		},
 		{
 			"name" : "Algo3_TP4_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/haissam/depot-git/Algo3_TP4"
+			"value" : "/home/haissam/depot_git/Algo3_TP4"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/haissam/depot-git/Algo3_TP4/cmake-build-debug"
+			"value" : "/home/haissam/depot_git/Algo3_TP4/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -163,7 +163,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-j16"
+			"value" : "-j4"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/haissam/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake"
+			"value" : "/home/haissam/JetBrainsApp/clion-2023.2.2/bin/cmake/linux/x64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -199,7 +199,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/haissam/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cpack"
+			"value" : "/home/haissam/JetBrainsApp/clion-2023.2.2/bin/cmake/linux/x64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -211,7 +211,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/haissam/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/ctest"
+			"value" : "/home/haissam/JetBrainsApp/clion-2023.2.2/bin/cmake/linux/x64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -663,7 +663,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/haissam/depot-git/Algo3_TP4/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/haissam/depot_git/Algo3_TP4/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/haissam/depot-git/Algo3_TP4"
+			"value" : "/home/haissam/depot_git/Algo3_TP4"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1011,7 +1011,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/haissam/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26"
+			"value" : "/home/haissam/JetBrainsApp/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",

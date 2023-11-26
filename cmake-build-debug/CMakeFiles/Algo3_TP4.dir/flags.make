@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/haissam/depot-git/Algo3_TP4/Code
+C_INCLUDES = -I/home/haissam/depot_git/Algo3_TP4/Code
 
 C_FLAGS = -g -fdiagnostics-color=always
 
